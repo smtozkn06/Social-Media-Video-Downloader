@@ -1,0 +1,40 @@
+# Social Media Video Downloader - Requirements
+# Python 3.8+ required
+
+# Core UI Framework
+flet>=0.21.0
+
+# Web Scraping and Browser Automation
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Video/Audio Processing
+yt-dlp>=2023.10.13
+imageio-ffmpeg>=0.4.9
+
+# Instagram Downloading
+instaloader>=4.10.3
+instagrapi>=2.0.0
+
+# Twitter/X Downloading
+gallery-dl>=1.26.0
+twikit>=1.5.0
+snscrape>=0.7.0
+
+# Progress Bars and UI
+tqdm>=4.66.0
+
+# Async Operations
+aiohttp>=3.9.0
+
+# Type Hints and Extensions
+typing-extensions>=4.8.0
+
+# HTTP and URL Handling
+urllib3>=2.0.0
+
+# Note: Standard library modules (os, sys, time, threading, subprocess, 
+# shutil, tempfile, datetime, json, re, random, math, itertools, argparse, 
+# dataclasses, concurrent.futures) are included with Python and don't need 
+# to be installed separately.

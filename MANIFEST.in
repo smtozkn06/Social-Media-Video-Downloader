@@ -1,0 +1,61 @@
+# Include documentation files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include requirements.txt
+include pyproject.toml
+include setup.py
+
+# Include configuration files
+include .gitignore
+
+# Include GitHub workflows
+recursive-include .github *.yml *.yaml *.md
+
+# Include all Python files in modules
+recursive-include modules *.py
+
+# Exclude unnecessary files
+exclude *.pyc
+exclude *.pyo
+exclude *.pyd
+exclude .DS_Store
+exclude Thumbs.db
+
+# Exclude development and build files
+exclude .coverage
+exclude .pytest_cache
+exclude build
+exclude dist
+exclude *.egg-info
+
+# Exclude project-specific directories
+exclude output
+exclude cookie
+exclude logos
+exclude YEDEK*
+exclude .vercel
+
+# Exclude temporary files
+exclude *.tmp
+exclude *.temp
+exclude *.log
+exclude videourl.txt
+exclude settings.json
+
+# Exclude IDE files
+exclude .vscode
+exclude .idea
+exclude *.swp
+exclude *.swo
+
+# Exclude version control
+exclude .git
+exclude .gitattributes
+
+# Global excludes
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+global-exclude Thumbs.db
