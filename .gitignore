@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
@@ -159,13 +158,9 @@ cython_debug/
 # .idea/
 
 # Project specific
-output/
-cookie/
 settings.json
 videourl.txt
 YEDEK*/
-.vercel/
-logos/
 
 # Temporary files
 *.tmp
